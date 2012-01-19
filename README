@@ -1,36 +1,37 @@
-// This version is Nanode specific as it requires the extra SRAM and optional uSD socket to work
-//
-// Take on the Nanode Tiny Basic Christmas Challenge
-//
-// Help Hack Tiny Basic onto Nanode and kickstart a return to simpler and fun programming
-// Tiny Basic can help teach kids to program
-//
-// see  http://sustburbia.blogspot.com/2011_12_01_archive.html
-//
-// HAPPY CHRISTMAS 2011 Everyone!
-//
-// Join us on the #Nanode IRC Channel  http://webchat.freenode.net/?channels=nanode
-//
-// Arduino Tiny Basic Author : Mike Field - hamster@snap.net.nz
-// Thanks to Dave CJ   (@ceejay on Twitter) for the digital, analogue and sleep functions
-//
-// SRAM implementation and new commands added by Andrew Lindsay @andrewdlindsay
-// New commands:
-//    DIR             - List files in root directory of uSD card
-//    LOAD file.bas   - Load a program from uSD card filenames are 8.3 format only.
-//    SAVE file.bas   - Save program to uSD card
-//    LRUN file.bas   - Load and run program from uSD card
-//    MEM             - Display basic memory usage values
-//    TSECS           - function to return 1/10 sec (millis()/100) as int, so only low 15 bits.
-//    SERVO           - Control a servo on pin 3, 5 or 6
-//
-//  If a file is found on the uSD card called autoexec.bas then it is loaded and run on powerup and reset.
-//  Use CTRL-C to break out of running program.
-//
-// Based on TinyBasic for 68000, by Gordon Brandly
-// (see http://members.shaw.ca/gbrandly/68ktinyb.html)
-//
-// which itself was Derived from Palo Alto Tiny BASIC as 
-// published in the May 1976 issue of Dr. Dobb's Journal.  
-// 
+This version is Nanode specific as it requires the extra SRAM and optional uSD socket to work
+
+Take on the Nanode Tiny Basic Christmas Challenge
+
+Help Hack Tiny Basic onto Nanode and kickstart a return to simpler and fun programming
+Tiny Basic can help teach kids to program
+
+see  http://sustburbia.blogspot.com/2011_12_01_archive.html
+
+Join us on the #Nanode IRC Channel  http://webchat.freenode.net/?channels=nanode
+
+Arduino Tiny Basic Author : Mike Field - hamster@snap.net.nz
+Thanks to Dave CJ   (@ceejay on Twitter) for the digital, analogue and sleep functions
+
+SRAM implementation and new commands added by Andrew Lindsay @andrewdlindsay
+New commands:
+   DIR             - List files in root directory of uSD card
+   LOAD file.bas   - Load a program from uSD card filenames are 8.3 format only.
+   SAVE file.bas   - Save program to uSD card
+   LRUN file.bas   - Load and run program from uSD card
+   MEM             - Display basic memory usage values
+   TSECS           - function to return 1/10 sec (millis()/100) as int, so only low 15 bits.
+   SERVO           - Control a servo on pin 3, 5 or 6
+
+ If a file is found on the uSD card called autoexec.bas then it is loaded and run on powerup and reset.
+ Use CTRL-C to break out of running program.
+
+Example files should be copied to a uSD card then they can be loaded and run.
+
+
+Based on TinyBasic for 68000, by Gordon Brandly
+(see http://members.shaw.ca/gbrandly/68ktinyb.html)
+
+which itself was Derived from Palo Alto Tiny BASIC as 
+published in the May 1976 issue of Dr. Dobb's Journal.  
+
 
