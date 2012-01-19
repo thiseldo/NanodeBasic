@@ -1,0 +1,8 @@
+5 REM TIMETEST.BAS - demo of TSEC, 1/10 sec function to time execution
+10 LET A=TSECS
+20 FOR N=0 TO 10000
+30 NEXT N
+40 LET B=TSECS
+50 LET S=B-A
+60 PRINT S/10;
+70 PRINT " seconds"

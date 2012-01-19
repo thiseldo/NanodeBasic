@@ -1,0 +1,11 @@
+5 REM STKTEST.BAS - Test for gosub 
+10 PRINT "Stack frame test"
+20 LET A = 0
+30 FOR X = 1 TO 10
+40 GOSUB 100
+50 PRINT "A = ";
+60 PRINT A
+70 NEXT X
+99 STOP
+100 LET A = A +1
+110 RETURN
