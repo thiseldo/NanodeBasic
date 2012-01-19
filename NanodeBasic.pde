@@ -1,7 +1,6 @@
-// TinyBASIC.cpp : An implementation of TinyBASIC in C to run on Nanode and Arduino
+// NanodeBasic.pde : An implementation of TinyBASIC in C to run on Nanode
 //
-// This version now has the digital I/O, analogue I/O and sleep functions
-//
+// This version is Nanode specific as it requires the extra SRAM and optional uSD socket to work
 //
 // Take on the Nanode Tiny Basic Christmas Challenge
 //
